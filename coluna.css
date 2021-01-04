@@ -1,0 +1,83 @@
+.coluna1 {
+    float: left;
+    width: 8.333%;
+    background-color: #fa6852;
+    height: auto;
+} 
+
+.coluna2 {
+    float: left;
+    width: 16.666%;
+    background-color: rgb(169, 114, 221);
+    height: auto;
+}
+
+.coluna3 {
+    float: left;
+    width: 25%;
+    background-color: rgb(114, 178, 221);
+    height: auto;
+}
+
+.coluna4 {
+    float: left;
+    width: 33.333%;
+    background-color:rgb(114, 221, 137);
+    height: auto;
+}
+
+.coluna5 {
+    float: left;
+    width: 41.666%;
+    background-color: rgb(205, 221, 114);
+    height: auto;
+}
+
+.coluna6 {
+    float: left;
+    width: 50%;
+    background-color: rgb(241, 135, 218);
+    height: auto;
+}
+
+.coluna7 {
+    float: left;
+    width: 58.333%;
+    background-color: rgb(253, 247, 153);
+    height: auto;
+}
+
+.coluna8 { 
+    float: left;
+    width: 66.666%;
+    background-color: rgb(158, 247, 177);
+    height: auto;
+}
+
+.coluna9 {
+    float: left;
+    width: 75%;
+    background-color: rgb(163, 208, 238);
+    height: auto;
+}
+
+.coluna10 {
+    float: left;
+    width: 83.333%;
+    background-color: rgb(209, 162, 252);
+    height: auto;
+}
+
+.coluna11 {
+    float: left;
+    width: 91.666%;
+    background-color: rgb(221, 153, 114);
+    height: auto;
+}
+
+.coluna12 {
+    float: left;
+    width: 100%;
+    background-color: rgb(212, 114, 221);
+    height: auto;
+}
