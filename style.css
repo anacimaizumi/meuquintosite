@@ -187,21 +187,28 @@ a.button:hover {
     }
 
     .left {
-        position: absoslute;
+        position: absolute;
         top: 82%;
         left: 20%;
       }
 
     a.button:link {
-        bottom: -53%;
-        left: 40%;
+        margin: 0;
+        position: absolute;
+        bottom: -70%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-size: 3vw;
+        
+        
     }
 
     .intro p{
         padding-left: 6%;
         padding-right: 6%;
         padding-top: 7%;
-        font-size: 3vw;
+        font-size: 3.5vw;
         line-height: 1.6;
         font-weight: 300;
     }
