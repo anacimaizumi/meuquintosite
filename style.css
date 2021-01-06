@@ -128,6 +128,12 @@ a.button:hover {
     font-weight: 300;
 }
 
+.coluna6 img, .coluna3 img{
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+}
+
 /*the end of first part page*/
 
 @media (max-width: 952px) {
@@ -200,8 +206,6 @@ a.button:hover {
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         font-size: 3vw;
-        
-        
     }
 
     .intro p{
