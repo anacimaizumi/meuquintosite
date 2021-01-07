@@ -143,64 +143,128 @@ a.button:hover {
 .coluna6 {
     background-color: white;
     position: relative;
-    border: solid black 1px;
-    border-radius: 4px;
 }
 
 .coluna6 img {
     cursor: pointer;
     width: 100%;
-    padding: 10px;
-    filter: grayscale(100%)
-}
-
-.coluna6 img:hover {
-    filter: none;
-}
-
-.coluna6 i {
-    position: absolute;
-    left: 10%;
-    top: 94%;
-    font-size: 2.5vw;
-    cursor: pointer;
-}
-
-.topcover {
-    position: absolute;
-    left: 5%;
-    top: 43%;
-    font-size: 2vw;
-}
-
-.bottomcover {
-    position: absolute;
-    left: 5%;
-    top: 94%;
-    font-size: 2vw;
-}
-
-h1 {
-    font-weight: 400;
-    line-height: 1.8;
-    padding-left: 17%;
-    font-size: 1.5vw;
-    font-family: 'Roboto Slab', serif;
-}
-
-.coluna6 p {
-    padding-left: 17%;
-    font-size: 1.5vw;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 300;
+    padding: 10px;   
 }
 
 .coluna6 h1{
     cursor: pointer;
 }
 
-.coluna6 p {
+.coluna6 img:hover {
+    filter: none;
+    transition: all .5s ease;
+}
+
+.recentitem {
+    border: solid black 1px;
+    border-radius: 0px;
+}
+
+.recentitem i {
+    position: absolute;
+    left: 5%;
+    top: 91.5%;
+    font-size: 2.5vw;
     cursor: pointer;
+}
+
+.recentitem h1, .item1 h1, .item2 h1{
+    font-weight: 400;
+    line-height: 1.5;
+    padding-left: 13%;
+    font-size: 1.5vw;
+    font-family: 'Roboto Slab', serif;
+}
+
+.recentitem p, .item1 p, .item2 p{
+    padding-left: 13%;
+    padding-bottom: 3%;
+    font-size: 1.5vw;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.recentitem:hover {
+    /*background: rgb(238, 231, 231);*/
+    transition: all .5s ease;
+    filter: grayscale(50%);
+}
+
+.rightitens {
+    padding: 0% 0% 0% 2.5%;
+}
+
+.item1 {
+    padding: 0% 2.5% 0% 0%;
+}
+
+.item1 img, .item2 img {
+    padding: 10 10 0 10;
+    filter: grayscale(100%);
+}
+
+.bottomep {
+    margin-top: 6.5%;
+}
+.item1 h1, .item2 h1 {
+    padding-top: 3%;
+    line-height: 1.3;
+    padding-left: 19%;
+    border-right: solid black 1px;
+    border-left: solid black 1px;
+}
+
+.item1 p, .item2 p {
+    padding-left: 19%;
+    padding-bottom: 10px;
+    border-bottom: solid black 1px;
+    border-right: solid black 1px;
+    border-left: solid black 1px;
+}
+
+.item2 {
+    padding: 0% 0% 0% 2.5%;
+}
+
+.leftep, .rightep {
+    border-top: solid 1px black;
+    border-right: solid 1px black;
+    border-left: solid 1px black;
+    border-radius: 0px;
+}
+
+.topcoverleft {
+    position: absolute;
+    left: 6%;
+    top: 41%;
+    font-size: 2vw;
+}
+
+.topcoverright {
+    position: absolute;
+    left: 11%;
+    top: 41%;
+    font-size: 2vw;
+}
+
+.bottomcoverleft {
+    position: absolute;
+    left: 6%;
+    top: 92.5%;
+    font-size: 2vw;
+}
+
+.bottomcoverright {
+    position: absolute;
+    left: 11%;
+    top: 92.5%;
+    font-size: 2vw;
 }
 
 .espaco{
@@ -373,4 +437,98 @@ h1 {
         font-weight: 300;
     }
     /*the end of first part page*/
+    /*second part page*/
+
+    .coluna12 {
+        padding: 10% 5% 0% 5%;
+    }
+
+    .coluna6 {
+        width: 100%;
+    }
+
+    .intro p {
+        padding-bottom: 20%;
+        border-bottom: solid black 1px;
+    }
+    
+    .item1 img:hover, .item2 img:hover {
+        filter: grayscale(100%);
+        transition: none;
+    }
+    
+    .recentitem {
+        border: none;
+    }
+    
+    .recentitem i {
+        font-size: 5vw;
+    }
+    
+    .recentitem h1, .item1 h1, .item2 h1{
+        padding-left: 13%;
+        font-size: 3.5vw;
+    }
+    
+    .recentitem p, .item1 p, .item2 p{
+        padding-left: 13%;
+        padding-bottom: 3%;
+        font-size: 3.5vw;
+        cursor: pointer;
+    }
+    
+    .recentitem:hover {
+        transition: none;
+        filter: none;
+    }
+    
+    .rightitens, .item1 {
+        padding: 0;
+    }
+    
+    .item1 img, .item2 img {
+        padding: 10 10 0 10;
+        filter: grayscale(100%);
+    }
+    
+    .bottomep {
+        margin-top: 0;
+    }
+    .item1 h1, .item2 h1 {
+        padding-top: 3%;
+        line-height: 1.3;
+        border-right: none;
+        border-left: none; 
+    }
+    
+    .item1 p, .item2 p {
+        padding-bottom: 10px;
+        border-bottom: none;
+        border-right: none;
+        border-left: none;
+    }
+    
+    .item2 {
+        padding: 0;
+    }
+    
+    .leftep, .rightep {
+        border-top: none; 
+        border-right: none; 
+        border-left: none;
+    }
+
+    .cvr {
+        font-size: 5vw;
+    }
+    
+    .topcoverleft, .topcoverright {
+        left: 5%;
+        top: 46%;
+    }
+    
+    .bottomcoverleft, .bottomcoverright {
+        left: 5%;
+        top: 96%;
+    }
 }
