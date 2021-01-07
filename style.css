@@ -2,6 +2,7 @@
     text-decoration: none;
     box-sizing: border-box;
     list-style: none;
+    font-size: 1.8vw;
 }
 
 body {
@@ -117,7 +118,9 @@ a.button:link {
 
 a.button:hover {
     color: white;
-    background-color: black;
+    background-color: #6E6A6A;
+    border: #6E6A6A;
+    transition: all .3s ease-in-out;
 }
 
 .intro p{
@@ -126,15 +129,169 @@ a.button:hover {
     font-size: 1.8vw;
     line-height: 1.6;
     font-weight: 300;
-}
-
-.coluna6 img, .coluna3 img{
-    width: 100%;
-    padding: 20px;
-    background-color: white;
+    padding-bottom: 5%;
 }
 
 /*the end of first part page*/
+/*second part page*/
+
+.coluna12 {
+    padding: 0% 5% 0% 5%;
+    background-color: white;
+}
+
+.coluna6 {
+    background-color: white;
+    position: relative;
+    border: solid black 1px;
+    border-radius: 4px;
+}
+
+.coluna6 img {
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    filter: grayscale(100%)
+}
+
+.coluna6 img:hover {
+    filter: none;
+}
+
+.coluna6 i {
+    position: absolute;
+    left: 10%;
+    top: 94%;
+    font-size: 2.5vw;
+    cursor: pointer;
+}
+
+.topcover {
+    position: absolute;
+    left: 5%;
+    top: 43%;
+    font-size: 2vw;
+}
+
+.bottomcover {
+    position: absolute;
+    left: 5%;
+    top: 94%;
+    font-size: 2vw;
+}
+
+h1 {
+    font-weight: 400;
+    line-height: 1.8;
+    padding-left: 17%;
+    font-size: 1.5vw;
+    font-family: 'Roboto Slab', serif;
+}
+
+.coluna6 p {
+    padding-left: 17%;
+    font-size: 1.5vw;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+
+.coluna6 h1{
+    cursor: pointer;
+}
+
+.coluna6 p {
+    cursor: pointer;
+}
+
+.espaco{
+    padding-bottom: 4%;
+}
+
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    clear: both;
+    display: block;
+    height: 0;
+}
+
+/*
+.coluna6 {
+    background-color: white;
+    position: relative;
+}
+
+.coluna3 {
+    background-color: white;
+    position: relative;
+}
+
+.coluna6 img {
+    cursor: pointer;
+    width: 100%;
+    padding: 0% 5% 0% 10%;
+    filter: grayscale(100%)
+}
+
+.coluna6 img:hover {
+    filter: none;
+}
+
+.coluna3 img {
+    width: 100%;
+    padding: 0% 20% 0% 5%;
+    filter: grayscale(100%)
+}
+
+.coluna6 i {
+    position: absolute;
+    left: 10%;
+    top: 94%;
+    font-size: 2.5vw;
+    cursor: pointer;
+}
+
+.topcover {
+    position: absolute;
+    left: 5%;
+    top: 43%;
+    font-size: 2vw;
+}
+
+.bottomcover {
+    position: absolute;
+    left: 5%;
+    top: 94%;
+    font-size: 2vw;
+}
+
+h1 {
+    font-weight: 400;
+    line-height: 1.8;
+    padding-left: 17%;
+    font-size: 1.5vw;
+    font-family: 'Roboto Slab', serif;
+}
+
+.coluna6 p, .coluna3 p {
+    padding-left: 17%;
+    font-size: 1.5vw;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+}
+
+.coluna6 h1{
+    cursor: pointer;
+}
+
+.coluna6 p {
+    cursor: pointer;
+}
+
+.espaco{
+    padding-bottom: 4%;
+}
+*/
 
 @media (max-width: 952px) {
     nav ul li a {
@@ -156,7 +313,6 @@ a.button:hover {
         top: 60px;
         left:-100%;
         text-align: center;
-        transition: all .5s;
         z-index: 1;
     }
     nav ul li {
