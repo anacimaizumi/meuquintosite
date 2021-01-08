@@ -95,11 +95,11 @@ a.active,a:hover{
     left: 5%;
   }
 
-a.button:visited {
+a.button1:visited, a.button2:visited {
     color: black;
 }
 
-a.button:link {
+a.button1:link {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 15px;
@@ -116,10 +116,25 @@ a.button:link {
     left: 5%;
 }
 
-a.button:hover {
+a.button2:link {
+    font-size: 20px;
+    border: solid 1px;
+    border-radius: 4px;
+    padding: 10px 18px;
+    color: black;
+    display: block;
+    text-align: center;
+    margin-left: 38%;
+    margin-right: 38%;
+    margin-top: 2%;
+}
+
+
+
+a.button1:hover, a.button2:hover {
     color: white;
     background-color: #6E6A6A;
-    border: #6E6A6A;
+    border: ;
     transition: all .3s ease-in-out;
 }
 
@@ -277,6 +292,24 @@ a.button:hover {
     clear: both;
     display: block;
     height: 0;
+}
+/*third part*/
+
+.coluna12 h2{
+    font-family: 'Roboto Slab', serif;
+    font-weight: 900;
+    font-size: 4vw;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    color: #6E4949;
+}
+
+.coluna12 h3 {
+    font-size: 1.8vw;
+    line-height: 1.6;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 /*
